@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Zanbytes_Cdokus",
+    "type": "magento-module",
+    "license": "GPL",
+    "homepage": "",
+    "description": "Product Document, the extension includes admin tab on the Admin Product Interface.And it also provides a way to show the download link per store.",
+    "authors": [
+    {
+        "name": "Omar,Muhsin",
+        "email": "o.z.muhsin@gmail.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

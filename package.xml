@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package>
+    <name>Zanbytes_Cdokus</name>
+    <version>0.0.0.7</version>
+    <stability>stable</stability>
+    <license>GPL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Product Document, the extension includes admin tab on the Admin Product Interface.And it also provides a way to show the download link per store.</summary>
+    <description>Plugin that gives a nice user interface for administrator to upload product documents like manuals via a nice product tab in the Magento Backoffice.&#xD;
+&#xD;
+As a bonus the plugin, allow administrators to control the visibility of the links per store and by using the translation file the label can be translated into multiple languages.</description>
+    <notes>Date:11-01-2014&#xD;
+Version:v0007&#xD;
+#Compatibility testing with c1810&#xD;
+#Removes licence messages and its key from the cdokus.</notes>
+    <authors><author><name>Omar,Muhsin</name><user>omarmadian</user><email>o.z.muhsin@gmail.com</email></author></authors>
+    <date>2014-01-11</date>
+    <time>14:39:59</time>
+    <contents><target name="mage"><dir name="app"><dir name="locale"><dir name="en_US"><file name="Zanbytes_Cdokus.txt" hash="118e7eb832b943a17b8aff74c4489f23"/></dir></dir><dir name="etc"><dir name="modules"><file name="Zanbytes_Cdokus.xml" hash="f35529ad415197c9c47994fdf5d39760"/></dir></dir><dir name="design"><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="cdokus"><file name="links.phtml" hash="fbdad7a3c6ab227e8af07a9dc716ffd0"/></dir></dir><dir name="layout"><file name="cdokus.xml" hash="fa642f1af0c9e8c5ae4367a14e591c07"/></dir></dir></dir></dir><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="cdokus.xml" hash="67360c986435c888f76f1b812dc13235"/></dir><dir name="template"><dir name="cdokus"><dir name="product"><dir name="edit"><file name="cdokus.phtml" hash="cb5f49fef2a3c6245534433f4231bc44"/></dir></dir></dir></dir></dir></dir></dir></dir><dir name="code"><dir name="community"><dir name="Zanbytes"><dir name="Cdokus"><dir><dir><dir name="Block"><dir name="Adminhtml"><dir name="Catalog"><dir name="Product"><dir name="Edit"><dir name="Tab"><file name="Cdokus.php" hash="942c14ae95907c3ed351a1c4ba429584"/><dir name="Links"><dir name="Action"><file name="Renderer.php" hash="d602eb275b4580c866c879be0b6fb931"/></dir><file name="Grid.php" hash="c3ffd16e724cd87a62932e1eac98fc6b"/></dir></dir></dir></dir></dir><dir name="Cdokus"><file name="Document.php" hash="d230294a2503e20260408a4b998cc023"/><dir name="Edit"><file name="Form.php" hash="985d7a778827b763ac753db4dd646b48"/><dir name="Tab"><file name="Form.php" hash="c8ce8bfc813b1dbe9c367d6086084381"/></dir><file name="Tabs.php" hash="872ffd3320f2b00b78e984f8ab83eb6c"/></dir><file name="Edit.php" hash="b8302c9107305caefd788b7f2f7602a9"/><file name="Grid.php" hash="5c85c38aa9508ca09c2c111e0656ad2f"/></dir></dir><file name="Download.php" hash="645b59225ef50bc6b11ee5a5fcf62632"/></dir><dir name="Helper"><file name="Data.php" hash="80142c6d1478c23865ae5bcbebec491b"/></dir><dir name="Model"><file name="Abstract.php" hash="1a616835c51b6ebeba809f2b3312b953"/><file name="Link.php" hash="5f641f42d0677afc050d3ed05e8526fe"/><dir name="Resource"><dir name="Link"><file name="Collection.php" hash="2e289cbb4ede1a5d35fefbf000a540cb"/></dir><file name="Link.php" hash="4b3128a30911869b834312b3df7c8492"/></dir></dir><dir name="controllers"><dir name="Adminhtml"><dir name="Cdokus"><dir name="Document"><file name="LinkController.php" hash="be56d3428a6acd0ecbef653c18870d44"/></dir><dir name="Product"><file name="EditController.php" hash="b6f6d5966f4d151d8eaa6184f31fa959"/></dir></dir></dir><file name="DownloadController.php" hash="0a68417cd68a768f1fc5b8529a782f58"/></dir><dir name="docs"><file name="TODO" hash="508dd0c06bfdfbb5feb20de141428de1"/><file name="readme" hash="05f427f032dddaeebaf9db2da06be119"/><file name="reset-cdoku-db-entries.sql" hash="e2272e9d913d45415d40dcaebdc06e21"/></dir><dir name="etc"><file name="adminhtml.xml" hash="ebe01080c4ab035ca783f6cda2380325"/><file name="config.xml" hash="00e6b16c5a37ccc85d1e86e4889b186b"/><file name="system.xml" hash="ce142db0887e92b0730d37b75fed6080"/></dir><dir name="sql"><dir name="cdokus_setup"><file name="mysql4-install-0.0.0.1.php" hash="5de08052a13213d7efea54c223653c20"/></dir></dir></dir></dir></dir></dir></dir></dir></dir><dir name="skin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="cdokus"><file name="style.css" hash="289cd7956266a91ef9d6c36d12a071e5"/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.3.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
